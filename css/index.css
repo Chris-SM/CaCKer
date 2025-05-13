@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #2f2f2f;
+    color: #fff;
+  }
+  
+  .container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .click-area {
+    flex: 2;
+    background: radial-gradient(circle at center, #5d5d5d, #2f2f2f);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-right: 6px solid #523d2a;
+    padding: 20px;
+  }
+  
+  .click-area h2 {
+    font-size: 2em;
+    color: #ffe2b0;
+  }
+  
+  .contador {
+    font-size: 1.5em;
+    margin: 0;
+  }
+  
+  .bolo {
+    width: 250px;
+    cursor: pointer;
+    transition: transform 0.1s ease;
+  }
+  
+  .bolo:active {
+    transform: scale(0.95);
+  }
+  
+  .por-segundo {
+    margin-top: 0;
+    font-style: italic;
+    color: #ccc;
+  }
+  
+  .loja {
+    flex: 1;
+    background: linear-gradient(to bottom, #1e1e1e, #292929);
+    padding: 20px;
+    overflow-y: auto;
+  }
+  
+  .loja h2 {
+    color: #ffd700;
+    text-align: center;
+  }
+  
+  .container-upgrades {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .upgrade-card {
+    background-color: #3e3e3e;
+    border: 2px solid #ffd700;
+    padding: 10px;
+    border-radius: 8px;
+    transition: background-color 0.2s ease;
+  }
+  
+  .upgrade-card:hover {
+    background-color: #5c4500;
+  }
+  
+  .upgrade-card h3 {
+    margin: 0;
+    color: #fff;
+  }
+  
+  .upgrade-card p {
+    margin: 5px 0;
+    font-size: 0.9em;
+  }
+  
+  .btn-comprar {
+    margin-top: 5px;
+    background-color: #ffb347;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .btn-comprar:hover {
+    background-color: #e68a00;
+  }
+  
+
+  .animacao-click {
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    color: #eeeeee;
+    animation: subir 1s ease-out forwards;
+    pointer-events: none;
+  }
+  
+  @keyframes subir {
+    from {
+      opacity: 1;
+      transform: translateY(0px);
+    }
+    to {
+      opacity: 0;
+      transform: translateY(-30px);
+    }
+  }
+
+  .fade-out {
+    animation: desaparecer 0.5s forwards;
+  }
+  
+  @keyframes desaparecer {
+    from {
+      opacity: 1;
+      transform: scale(1);
+    }
+    to {
+      opacity: 0;
+      transform: scale(0.8);
+    }
+  }
+  
+  .btn-comprar.desativado {
+    background-color: #555;
+    color: #999;
+    cursor: not-allowed;
+    border: 2px solid #444;
+  }
+  
+  .click-animation {
+    position: absolute;
+    font-size: 1.2em;
+    color: #ffea00;
+    animation: subir 0.8s ease-out forwards;
+    pointer-events: none;
+  }
+  
+  @keyframes subir {
+    from {
+      opacity: 1;
+      transform: translateY(0px);
+    }
+    to {
+      opacity: 0;
+      transform: translateY(-50px);
+    }
+  }
+  
+  

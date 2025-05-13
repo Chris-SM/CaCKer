@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CaCKe Clicker</title>
+  <link rel="stylesheet" href="../css/index.css">
+  <link rel="icon" href="../img/Icone.png" type="image/png">
+</head>
+<body>
+  <script>
+      document.documentElement.requestFullscreen().then(() => screen.orientation.lock("landscape"))
+  </script>
+  <div class="container">
+    
+    <div class="click-area">
+      <h2>CaCKe Clicker Alpha 1.0</h2>
+      <p class="contador">0 CaCKes</p>
+      <img src="../img/cakee.png" alt="Bolo" class="bolo" id="boloClick">
+      <p class="por-segundo">por segundo: 0</p>
+    
+    </div>
+
+    
+    <div class="loja">
+      <h2>Loja</h2>
+      <div id="upgrade-container" class="container-upgrades">
+        
+      </div>
+    </div>
+  </div>
+
+  <script src="../js/index.js"></script>
+</body>
+</html>

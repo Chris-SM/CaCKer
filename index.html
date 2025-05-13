@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loading</title>
+    <link rel="icon" href="img/Icone.png" type="image/png">
+    <link rel="stylesheet" href="loadSti.css">
+</head>
+<body onload="iniciar()">
+<!-- <body> -->
+    <div id="telaLoad">
+        <img src="cakee.gif" alt="">
+        <label>Made by Sales and Chris <br> @2025</label>
+    </div>
+</body>
+<script>
+    document.documentElement.requestFullscreen().then(() => screen.orientation.lock("landscape"));
+    function iniciar() {
+  setTimeout(() => {
+    window.location.href = './html';
+  }, 500);   
+    }
+</script>
+</html>

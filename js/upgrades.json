@@ -1,0 +1,299 @@
+[
+    {
+      "nome": "Farinha de Terceira",
+      "descricao": "O preço é bem mais em conta, mas a qualidade é questionável.",
+      "custo": 10,
+      "Bonus_Prod": "+1 por Click",
+      "tipo": "click",
+      "valor": 1,
+      "comprado": false
+    },
+    {
+      "nome": "Confeiteiros",
+      "descricao": "A Etec faz curso de tudo hoje em dia.",
+      "custo": 60,
+      "Bonus_Prod": "+2 por Click",
+      "tipo": "click",
+      "valor": 2,
+      "comprado": false
+    },
+    {
+      "nome": "Cobertura",
+      "descricao": "É a mais barata do mercado, mas pelo menos quebra um galho.",
+      "custo": 150,
+      "Bonus_Prod": "+2 por Segundo",
+      "tipo": "segundo",
+      "valor": 2,
+      "comprado": false
+    },
+    {
+      "nome": "Água de torneira",
+      "descricao": "É só colocar em um pouco de leite e ninguém percebe!",
+      "custo": 200,
+      "Bonus_Prod": "+3 por Click",
+      "tipo": "click",
+      "valor": 3,
+      "comprado": false
+    },
+    {
+      "nome": "Ovos Questionáveis",
+      "descricao": "São ovos mesmo?",
+      "custo": 280,
+      "Bonus_Prod": "+3 por Segundo",
+      "tipo": "segundo",
+      "valor": 3,
+      "comprado": false
+    },
+    {
+      "nome": "Manteiga*",
+      "descricao": "A gente fala que é manteiga, mas na verdade é margarina, para ser sincero é até mais saudável!",
+      "custo": 340,
+      "Bonus_Prod": "+5 por Click",
+      "tipo": "click",
+      "valor": 5,
+      "comprado": false
+    },
+    {
+      "nome": "Utensilhos Usados",
+      "descricao": "Chega de misturar massa de CaCKes na mão! Espera... a colher está enferrujada?!",
+      "custo": 440,
+      "Bonus_Prod": "+5 por Segundo",
+      "tipo": "segundo",
+      "valor": 5,
+      "comprado": false
+    },
+    {
+      "nome": "Leite Desnatado",
+      "descricao": "É mais barato que o leite integral, comprando mil desses eu economizo 10 centavos!",
+      "custo": 600,
+      "Bonus_Prod": "+5 por Click",
+      "tipo": "click",
+      "valor": 5,
+      "comprado": false
+    },
+    {
+      "nome": "Emabalagens",
+      "descricao": "É melhor que sacola, a gente pensa no meio-ambiente depois.",
+      "custo": 800,
+      "Bonus_Prod": "+6 por Segundo",
+      "tipo": "segundo",
+      "valor": 6,
+      "comprado": false
+    },
+    {
+      "nome": "Unifome da Firma",
+      "descricao": "Agora a galera parece mais profissional! Só parece.",
+      "custo": 1000,
+      "Bonus_Prod": "+8 por Click",
+      "tipo": "click",
+      "valor": 8,
+      "comprado": false
+    },
+    {
+      "nome": "Forno de Geladeira",
+      "descricao": "Não assa nada, mas esquenta o ambiente.",
+      "custo": 1300,
+      "Bonus_Prod": "+7 por Segundo",
+      "tipo": "segundo",
+      "valor": 7,
+      "comprado": false
+    },
+    {
+      "nome": "Batedeira",
+      "descricao": "Dá para o gasto, mas é 110v ou 120v?",
+      "custo": 1500,
+      "Bonus_Prod": "+9 por Click",
+      "tipo": "click",
+      "valor": 9,
+      "comprado": false
+    },
+    {
+      "nome": "Fermento Vencido",
+      "descricao": "Ainda cresce... eu acho",
+      "custo": 1700,
+      "Bonus_Prod": "+8 por Segundo",
+      "tipo": "segundo",
+      "valor": 8,
+      "comprado": false
+    },
+    {
+      "nome": "Fogão de 1 boca.",
+      "descricao": "Demora, mas uma hora vai, melhor que usar o maçarico.",
+      "custo": 1800,
+      "Bonus_Prod": "+8 por Click",
+      "tipo": "click",
+      "valor": 8,
+      "comprado": false
+    },
+    {
+      "nome": "Vovó",
+      "descricao": "Bolos caseiros são melhores que bolos industriais, então colocamos as vovós na indústria!",
+      "custo": 2000,
+      "Bonus_Prod": "+10 por Segundo",
+      "tipo": "segundo",
+      "valor": 10,
+      "comprado": false
+    },
+    {
+      "nome": "Empréstimo Duvidoso",
+      "descricao": "O agiota não quis juros em dinheiro, e sim em CaCKes, melhor para nós.",
+      "custo": 2300,
+      "Bonus_Prod": "+14 por Segundo",
+      "tipo": "segundo",
+      "valor": 14,
+      "comprado": false
+    },
+    {
+      "nome": "Receita da Mama",
+      "descricao": "Ninguém sabe o que tem, mas funciona. (Pode ser radioativo)",
+      "custo": 2600,
+      "Bonus_Prod": "+10 por Click",
+      "tipo": "click",
+      "valor": 10,
+      "comprado": false
+    },
+    {
+      "nome": "Luvas de plástico transparente",
+      "descricao": "A higiene é quase prioridade",
+      "custo": 2900,
+      "Bonus_Prod": "+11 por Click",
+      "tipo": "click",
+      "valor": 11,
+      "comprado": false
+    },
+    {
+      "nome": "SaboriNeitor 2000",
+      "descricao": "Criado por um cientista com fixação em Ornitorrincos e Chapéus de Cowboy",
+      "custo": 3300,
+      "Bonus_Prod": "+18 por Segundo",
+      "tipo": "segundo",
+      "valor": 18,
+      "comprado": false
+    },
+    {
+      "nome": "Certificado da Anvisa",
+      "descricao": "Papel timbrado e carimbo, se olhar de perto está escrito Amfisa, mas ninguém olha mesmo!",
+      "custo": 3600,
+      "Bonus_Prod": "+25 por Segundo",
+      "tipo": "segundo",
+      "valor": 25,
+      "comprado": false
+    },
+    {
+      "nome": "Entrega por patinete",
+      "descricao": "Eles não precisam de CNH, nem gasolina, só alimento",
+      "custo": 4000,
+      "Bonus_Prod": "+18 por Click",
+      "tipo": "click",
+      "valor": 18,
+      "comprado": false
+    },
+    {
+      "nome": "Funcionário Fantasma",
+      "descricao": "Não trabalha, mas ta na folha. Magicamente a produção aumenta!",
+      "custo": 4400,
+      "Bonus_Prod": "+35 por Segundo",
+      "tipo": "segundo",
+      "valor": 35,
+      "comprado": false
+    },
+    {
+      "nome": "Extintor",
+      "descricao": "Depois de 3 incêndios aprendemos a lição.",
+      "custo": 5000,
+      "Bonus_Prod": "+35 por Segundo",
+      "tipo": "segundo",
+      "valor": 35,
+      "comprado": false
+    },
+    {
+      "nome": "Estagiário Multi-Função",
+      "descricao": "Faz de tudo, mas não pode errar uma única vez, talvez isso seja contra os direitos humanos? ...talvez.",
+      "custo": 5400,
+      "Bonus_Prod": "+18 por Click",
+      "tipo": "click",
+      "valor": 18,
+      "comprado": false
+    },
+    {
+      "nome": "Farinha Incomum",
+      "descricao": "É só um pó branco, barato e BRILHA NO ESCURO???!",
+      "custo": 6000,
+      "Bonus_Prod": "+40 por Segundo",
+      "tipo": "segundo",
+      "valor": 40,
+      "comprado": false
+    },
+    {
+      "nome": "Ovos de verdade",
+      "descricao": "Seria melhor se fossem dourados",
+      "custo": 7000,
+      "Bonus_Prod": "+18 por Click",
+      "tipo": "click",
+      "valor": 18,
+      "comprado": false
+    },
+    {
+      "nome": "Açúcar muito vencido",
+      "descricao": "Aqui diz que é da época colonial? 'tipo' século XVI",
+      "custo": 8100,
+      "Bonus_Prod": "+42 por Segundo",
+      "tipo": "segundo",
+      "valor": 42,
+      "comprado": false
+    },
+    {
+      "nome": "Caixa de papelão premium",
+      "descricao": "O gosto d comida pode ser ruim, mas se for bonito, da para tirar foto.",
+      "custo": 9300,
+      "Bonus_Prod": "+25 por Click",
+      "tipo": "click",
+      "valor": 25,
+      "comprado": false
+    },
+    {
+      "nome": "Selo Orgânico qualquer",
+      "descricao": "Colocamos o adesivo e pronto! Vendemos mais!",
+      "custo": 10000,
+      "Bonus_Prod": "+25 por Click",
+      "tipo": "click",
+      "valor": 25,
+      "comprado": false
+    },
+    {
+      "nome": "CaCKe no pote",
+      "descricao": "Mais um método gourmet idiota",
+      "custo": 10300,
+      "Bonus_Prod": "+50 por Segundo",
+      "tipo": "segundo",
+      "valor": 50,
+      "comprado": false
+    },
+    {
+      "nome": "Sabor Mistério",
+      "descricao": "Cada mordida é uma surpresa, Às vezes boa.",
+      "custo": 11000,
+      "Bonus_Prod": "+50 por Segundo",
+      "tipo": "segundo",
+      "valor": 50,
+      "comprado": false
+    },
+    {
+      "nome": "Influencer Subornado",
+      "descricao": "Ele nunca provou nada",
+      "custo": 12000,
+      "Bonus_Prod": "+25 por Click",
+      "tipo": "click",
+      "valor": 25,
+      "comprado": false
+    },
+    {
+      "nome": "Recheio Sabor Ar",
+      "descricao": "É só ar bem batido, 'tipo' pastel de vento, pura invenção",
+      "custo": 15000,
+      "Bonus_Prod": "+35 por Click",
+      "tipo": "click",
+      "valor": 35,
+      "comprado": false
+    }
+]
